@@ -1,0 +1,42 @@
+/* Clase para agregar padding superior e inferior de 30px */
+.margen-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* Estilos adicionales para hacerlo atractivo */
+    background-color: #f2f2f2; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde del elemento */
+    text-align: center; /* Alineación del texto al centro */
+    
+    color: #333; /* Color del texto */
+    /* Clase para centrar el texto de un título */}
+.titulo-centrado {
+    text-align: center;
+  }
+  
+ /* Clase para el div con fondo de imagen */
+.div-con-fondo {
+    background-image: url('3.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  } 
+  .responsive-bg-jeringa1 {
+    background-image: url('jeringa1.png'); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: 100% 100%; /* Esto hará que la imagen se ajuste a la longitud y altura del div sin recortarse, pero puede distorsionarse */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  }
+  .responsive-bg-capsula {
+    background-image: url('capsula.png'); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: 100% 100%; /* Esto hará que la imagen se ajuste a la longitud y altura del div sin recortarse, pero puede distorsionarse */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .div-con-cerebro {
+    background-image: url('.png'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  } 
